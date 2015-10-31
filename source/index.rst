@@ -8,13 +8,13 @@ dev.plone.org has moved!
 
 Plone and its community are continually updating and upgrading our infrastructure and tooling. We have moved our version control and issue tracking to Github.
 
-To file an issue, please visit our `Issue Tracker on GiHub <https://github.com/plone/cmf.plone/issues>`_.
+To file an issue, please visit our `Issue Tracker on GitHub <https://github.com/plone/Products.CMFPlone/issues>`_.
 
 To contribute to the Plone Core, please read about our `Process for Plone core's development <http://docs.plone.org/develop/coredev/docs/index.html>`_ first.
 
-Our old Subversion repository is in 'read only mode' at https://svn.plone.org; you can also download it from https://archive.plone.org/svn (approximately 16 GB in size).
+View old Subversion repository in 'read only mode' at https://svn.plone.org or download it from https://archive.plone.org/svn (~16 GB in size).
 
-To download the old static version of dev.plone.org go to https://archive.plone.org/olddev which includes the old Trac wiki and issue tracker **and** our Subversion repository.
+Download the old static version of dev.plone.org from https://archive.plone.org/olddev, which includes the old Trac wiki and issue tracker **and** our Subversion repository.
 
 
 
@@ -22,7 +22,7 @@ To download the old static version of dev.plone.org go to https://archive.plone.
    :maxdepth: 2
    :hidden:
 
-   Issue Tracker <https://github.com/plone/cmf.plone/issues>
+   Issue Tracker <https://github.com/plone/Products.CMFPlone/issues>
    SVN <https://svn.plone.org>
    Old Trac <https://archive.plone.org/olddev>
    Documentation <http://docs.plone.org>
