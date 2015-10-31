@@ -3,21 +3,18 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome
-=======
+dev.plone.org has moved!
+========================
 
-Are you looking for the old dev.plone.org ?
+Plone and its community are continually updating and upgrading our infrastructure and tooling; we have moved our version control and issue tracking to `GitHub.com <https://github.com>`_.
 
-We closed our old developer site and infrastructure no worries nothing is lost Plone and the Plone Community are both
-still alive, active and vibrant.
+To file an issue, please visit our `Issue Tracker on GitHub <https://github.com/plone/Products.CMFPlone/issues>`_.
 
-If you want to file an issue, please visit our `Issue Tracker on GiHub <https://github.com/plone/cmf.plone/issues>`_.
+To contribute to the Plone Core, please read about our `Process for Plone core's development <http://docs.plone.org/develop/coredev/docs/index.html>`_ first.
 
-If you want to contribute to the Plone Core, please read about our `Process for Plone core's development <http://docs.plone.org/develop/coredev/docs/index.html>`_ first.
+You can wiew old read-only Subversion repository at https://svn.plone.org or download it from https://archive.plone.org/svn (~16 GB in size).
 
-If you are looking for our old svn repository, you can find it in 'read only mode' on https://svn.plone.org or you can download it from https://archive.plone.org/svn it is apr. 16Gig.
-
-If you want to download an old static version of dev.plone.org you can do that from https://archive.plone.org/olddev, which includes the old trac instance **and** svn.
+You can download the old static version of dev.plone.org from https://archive.plone.org/olddev, including the old Trac wiki and issue tracker **and** our Subversion repository.
 
 
 
@@ -25,7 +22,7 @@ If you want to download an old static version of dev.plone.org you can do that f
    :maxdepth: 2
    :hidden:
 
-   Issue Tracker <https://github.com/plone/cmf.plone/issues>
+   Issue Tracker <https://github.com/plone/Products.CMFPlone/issues>
    SVN <https://svn.plone.org>
    Old Trac <https://archive.plone.org/olddev>
    Documentation <http://docs.plone.org>
