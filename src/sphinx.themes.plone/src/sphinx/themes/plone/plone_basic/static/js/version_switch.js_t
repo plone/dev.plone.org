@@ -1,0 +1,65 @@
+/**
+ * Version and language switcher. Switches url to selected version or language.
+ */
+(function() {
+    'use strict';
+
+    var version_placeholder = '.version_switcher select',
+        lang_placeholder = '.lang_switcher select';
+
+    /**
+     * Replace version and lang in url.
+     */
+    function patch_url(url, version, lang) {
+        // Url structure is always the same, replace parts in fixed positions
+        var url = url.split('/');
+        url[3] = version;
+        url[4] = lang;
+        return url.join('/');;
+    }
+
+    /**
+     * normalize url.
+     */
+    function normalize_url(url) {
+        // if url[3]isn't numerical, we're on latest version without version info in URL, so insert it
+        var url = url.split('/');
+        if (url[3]>'9') {
+          // better insert stuff
+          url.splice(3,0,'en');
+          url.splice(3,0,'5');
+        }
+        return url.join('/');;
+    }
+
+    /**
+     * On switch function handler, redirects to existing document
+     * in different version or language if page is available
+     */
+    function on_switch() {
+        var selected_version = $(version_placeholder).children('option:selected').attr('value');
+        var selected_lang = $(lang_placeholder).children('option:selected').attr('value');
+
+        var url = window.location.href;
+        var norm_url = normalize_url(url);
+        var new_url = patch_url(norm_url, selected_version, selected_lang);
+
+        if (new_url != norm_url) {
+            // check beforehand if url exists, else redirect to version's start page
+            $.ajax({
+                url: new_url,
+                success: function() {
+                    window.location.href = new_url;
+                },
+                error: function() {
+                    window.location.href = 'http://docs.plone.org/'
+                        + selected_version + '/' + selected_lang;
+                }
+            });
+        }
+    }
+
+    $(document).ready(function() {
+        $(version_placeholder + ', ' + lang_placeholder).bind('change', on_switch);
+    });
+})();

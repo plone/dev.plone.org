@@ -1,0 +1,59 @@
+@import url('plone_basic.css');
+
+header {
+    border-top: 11px solid #3C9ACB;
+    /*height: 89px;*/
+    height: auto;
+    /*margin-bottom: 10px;*/
+}
+
+header a span {
+    color: #3C9ACB;
+    font-size: 24px;
+}
+
+footer#colophon {
+    background: none repeat scroll 0 0 #3C9ACB;
+    box-shadow: 0 8px 12px -12px rgba(0, 0, 0, 0.5) inset;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: #FFF;
+}
+
+footer#doormat {
+    background-color: #EAF2F6;
+    box-shadow: 0 8px 12px -12px rgba(0, 0, 0, 0.5) inset;
+    background-size: 18px 18px;
+}
+
+footer#doormat nav {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #205C90;
+}
+
+footer#doormat nav ul {
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-top: 0.5em;
+}
+
+footer#doormat nav a {
+    font-size: 12px;
+    color: #205C90;
+}
+
+div.breadcrumbs-container div.container {
+    background: linear-gradient(#EAF2F6, #DEDEDE);
+    background-repeat: no-repeat;
+    border-color: #DEDEDE #DEDEDE #A3A3A3;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+aside {
+    background-color: #F6F6F6;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+}

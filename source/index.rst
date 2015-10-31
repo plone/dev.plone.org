@@ -1,0 +1,33 @@
+.. dev.plone.org documentation master file, created by
+   sphinx-quickstart on Sat Oct 31 11:42:06 2015.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome
+=======
+
+Are you looking for the old dev.plone.org ?
+
+We closed our old developer site and infrastructure no worries nothing is lost Plone and the Plone Community are both
+still alive, active and vibrant.
+
+If you want to file an issue, please visit our `Issue Tracker on GiHub <https://github.com/plone/cmf.plone/issues>`_.
+
+If you want to contribute to the Plone Core, please read about our `Process for Plone core's development <http://docs.plone.org/develop/coredev/docs/index.html>`_ first.
+
+If you are looking for our old svn repository, you can find it in 'read only mode' on https://svn.plone.org or you can download it from https://archive.plone.org/svn it is apr. 16Gig.
+
+If you want to download an old static version of dev.plone.org you can do that from https://archive.plone.org/olddev, which includes the old trac instance **and** svn.
+
+
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+
+   Issue Tracker <https://github.com/plone/cmf.plone/issues>
+   SVN <https://svn.plone.org>
+   Old Trac <https://archive.plone.org/olddev>
+   Documentation <http://docs.plone.org>
+
+
