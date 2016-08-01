@@ -4,7 +4,7 @@ dev.plone.org
 
 `Bootstrap <https://getbootstrap.com/>`_ based landing page for `dev.plone.org <https://dev.plone.org>`_.
 
-.. image:: _static/archive-ploneorg-makeover.png
+.. image:: _static/dev-ploneorg-makeover.png
    :alt: Picture of the new site
 
 Features
