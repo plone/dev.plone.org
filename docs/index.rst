@@ -1,23 +1,20 @@
-About
-=====
+=============
+dev.plone.org
+=============
 
-This is a static landing page, based on `Sphinx <http://sphinx-doc.org/>`_, running on https://dev.plone.org.
+`Bootstrap <https://getbootstrap.com/>`_ based landing page for `dev.plone.org <https://dev.plone.org>`_.
 
-Updating
---------
+.. image:: _static/archive-ploneorg-makeover.png
+   :alt: Picture of the new site
 
-For updating the content, please change into the *source* directory and edit the file you wish to change
+Features
+========
 
-Example of updating the index.html
+- responsive
+- uses *Plone Header-Bar*
+- uses `Font Awesome <http://fontawesome.io/>`_ for icons
 
-.. code-block:: bash
+Known issues
+============
 
-    $ cd source
-    $ vim index.rst
-
-When you are finished, please change back to the root  directory and create the html
-
-.. code-block:: bash
-
-    $ cd ..
-    $ make html
+Currently, there are some little CSS glitches on small mobile devices. Pull requests are **welcome** !

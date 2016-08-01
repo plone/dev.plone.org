@@ -1,31 +1,24 @@
 dev.plone.org
-=============
+=================
 
-This is a static landing page, based on `Sphinx <http://sphinx-doc.org/>`_, running on https://dev.plone.org.
+Bootstrap based landing page for `dev.plone.org <https://dev.plone.org>`_.
 
 Features
 --------
 
-- based on `Sphinx <http://sphinx-doc.org/>`_
-- written in `reStructuredText <http://docutils.sourceforge.net/rst.html>`_
+- responsive
+- uses *Plone Header-Bar*
 
+Example
+-------
+
+.. image:: docs/_static/dev-ploneorg-makeover.png
+   :alt: Picture of the new site
 
 Documentation
 -------------
 
 Full documentation for end users can be found in the "docs" folder.
-
-
-Installation
-------------
-.. code-block:: bash
-
-    $ git clone https://github.com/plone/dev.plone.org.git
-    $ cd dev.plone.org
-    $ virtualenv-2.7 .
-    $ source bin/activate
-    $ pip install -r requirements.txt
-
 
 Contribute
 ----------
@@ -37,7 +30,6 @@ Support
 -------
 
 If you are having issues, please let us know.
-We have a mailing list located at: admins@plone.org
 
 License
 -------

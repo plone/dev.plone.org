@@ -1,9 +1,9 @@
+=========
 Changelog
 =========
 
-0.1-dev (Unreleased)
-----------------------
+1.0.0
+=====
 
-- Initiating project
+- Initial commit
   [svx]
-
